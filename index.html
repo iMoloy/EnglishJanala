@@ -30,6 +30,7 @@
     />
   </head>
   <body>
+    <!-- Navbar -->
     <header id="header">
       <div class="navbar bg-base-100 shadow-sm">
         <div class="navbar-start">
@@ -84,6 +85,49 @@
         </div>
       </div>
     </header>
+    <!-- Banner -->
+    <section
+      id="banner"
+      class="flex-row md:flex gap-4 items-center w-11/12 mx-auto py-4"
+    >
+      <div class="flex-1 space-y-4">
+        <h2 class="font-bold text-4xl">
+          <span class="text-sky-500">English </span>is Easy!!
+        </h2>
+        <p class="font-bangla text-base">
+          আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা
+          আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে
+          অন্য একটি Level এ
+        </p>
+        <input
+          type="email"
+          name=""
+          id="email"
+          class="input"
+          placeholder="Input your mail"
+        />
+        <br />
+        <input
+          type="password"
+          name=""
+          id="password"
+          class="input"
+          placeholder="Input your password"
+        />
+        <br />
+        <button class="btn btn-primary">Get Started</button>
+      </div>
+      <div class="flex-1">
+        <img src="./images/hero-student.png" alt="" />
+      </div>
+    </section>
+    <!-- Lesson -->
+    <section id="lesson" class="py-4">
+      <h2 class="font-bold text-3xl text-center">
+        <span class="text-sky-500">Let's </span>Learn Vocabularies
+      </h2>
+      <div id="lessonContainer"></div>
+    </section>
   </body>
-  <script src="./script.js"></script>
+  <script src="./scripts/index.js"></script>
 </html>
